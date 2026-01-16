@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Images/d1ef7f6d7.jpg); /* Reemplaza con tu imagen */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/d1ef7f6d7.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -167,7 +167,7 @@ nav {
 
 /* Estilos específicos para la página About */
 .about-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/d1ef7f6d7.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/d1ef7f6d7.jpg);
 }
 
 .content-wrapper {
@@ -219,7 +219,7 @@ nav {
 
 /* Estilos específicos para la página de Contacto */
 .contact-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/d1ef7f6d7.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/d1ef7f6d7.jpg);
 }
 
 .contact-wrapper {
