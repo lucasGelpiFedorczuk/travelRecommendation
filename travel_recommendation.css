@@ -220,3 +220,159 @@ nav {
     margin-top: 15px;
     font-size: 0.9rem;
 }
+
+/* Estilos específicos para la página de Contacto */
+.contact-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('Images/d1ef7f6d7.jpg');
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 10%;
+}
+
+.contact-info h1 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Contenedor del Formulario */
+.form-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    width: 45%; /* Ajusta el ancho para que quede a la derecha */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    box-sizing: border-box; /* Evita que el padding ensanche el input */
+}
+
+/* Estilo del botón enviar */
+.btn-submit {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #006666;
+}
+
+#resultContainer {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 350px;
+    max-height: 80vh;
+    overflow-y: auto; /* Permite scroll si hay muchos resultados */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 10;
+}
+
+/* Estilo de la Tarjeta (Card) */
+.result-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    animation: fadeIn 0.5s ease;
+}
+
+.result-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.result-card-content {
+    padding: 15px;
+}
+
+/* Botón Visit dentro de la card */
+.btn-visit {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.btn-visit:hover {
+    background-color: #006666;
+}
+
+/* Ajuste del texto en las tarjetas */
+.result-card-content h3 {
+    margin: 0 0 10px 0;
+    color: #006064;
+}
+
+.result-card-content p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.local-time {
+    color: #008080;
+    font-size: 0.85rem;
+    background: #e0f2f1;
+    display: inline-block;
+    padding: 2px 2px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+}
